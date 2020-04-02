@@ -10,4 +10,4 @@ RUN curl -o /usr/local/sbin/kubectl -LO https://storage.googleapis.com/kubernete
 run chmod 777 /usr/local/sbin/kubectl
 
 ENTRYPOINT ["/bin/bash","-c"]
-CMD ["tail","-f","/dev/null"]
+CMD ["bash"]
